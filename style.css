@@ -1,0 +1,385 @@
+<style type="text/css">
+	
+	.vacuum{
+		height: 20px;
+	}
+
+	.none{
+		text-decoration: none;
+	}
+	/*Главная страница*/
+
+	.header{
+		height: 100px;
+		background: #3498db;
+		display: flex;
+	}
+	.header-img{
+		height: 100px;
+		width: 300px;
+		margin: auto;
+	}
+	.banner{
+		width: 1500px;
+		height: 500px;
+		display: flex;
+		margin: auto;
+		background: #e74c3c;
+	}
+	.banner-text{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 52px;
+		text-align: justify;
+		color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+	}
+	.banner-img{
+		width: 880px;
+		height: 480px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.middle{
+		width: 1500px;
+		height: 1090px;
+		background: #e74c3c;
+		margin: auto;
+	}
+	.mid-1{
+		width: 1480px;
+		height: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 10px;
+		display: flex;
+	}
+	.mid-2{
+		width: 1480px;
+		height: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 10px;
+		display: flex;
+	}
+	.mid-box{
+		width: 700px;
+		height: 330px;
+		background: #f1c40f;
+		display: flex;
+		transition: 0.2s;
+	}
+	.mid-box-1{
+		width: 700px;
+		height: 330px;
+		background: #f1c40f;
+		display: flex;
+		transition: 0.2s;
+		margin-left: 80px;
+	}
+	.mid-box-img{
+		height: 300px;
+		padding-left: 10px;
+		padding-top: 10px;
+		transition: 0.2s;
+	}
+	.mid-box-text{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		padding-top: 100px;
+		color: black;
+	}
+	.mid-box-vacuum{
+		width: 700px;
+		height: 330px;
+		background: #3498db;
+		margin-left: 80px;
+	}
+	.mid-box-vacuum-1{
+		width: 700px;
+		height: 330px;
+		background: #3498db;
+	}
+	.mid-box-vacuum-text{
+		font-family: 'Montserrat', sans-serif;
+		text-align: justify;
+		color: black;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.copyright{
+		width: 1460px;
+		height: 50px;
+		border: 20px solid #e74c3c;
+		margin: auto;
+	}
+	.copyright-text{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	/*Вселенная*/
+
+	.u-header{
+		height: 100px;
+		background: #8e44ad;
+		display: flex;
+	}
+	.u-header-img{
+		height: 100px;
+		width: 300px;
+		margin: auto;
+	}
+	.u-exit{
+		width: 1500px;
+		height: 70px;
+		background: #2c3e50;
+		margin: auto;
+		border-radius: 10px;
+	}
+	.exit-text{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		color: white;
+		padding-top: 10px;
+	}
+	.u-banner{
+		width: 1500px;
+		height: 500px;
+		display: flex;
+		margin: auto;
+		background: #2c3e50;
+	}
+	.u-banner-img{
+		width: 600px;
+		height: 480px;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+	.u-banner-text{
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		text-align: justify;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.u-info{
+		width: 1500px;
+		height: 2700px;
+		background: #2c3e50;
+		margin: auto;
+	}
+	.geo{
+		width: 1500px;
+		height: 700px;
+		display: flex;
+	}
+	.geo-img{
+		width: 500px;
+		height: 500px;
+		padding-left: 10px;
+		padding-top: 100px;
+	}
+	.geo-text{
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: justify;
+	}
+	.color{
+		color: red;
+	}
+	.fruits{
+		width: 1500px;
+		height: 950px;
+		display: flex;
+	}
+	.fruits-text{
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: justify;
+	}
+	.fruits-img{
+		width: 500px;
+		height: 500px;
+		padding-right: 10px;
+		padding-top: 200px;
+	}
+	.concept{
+		width: 1500px;
+		height: 1050px;
+		display: flex;
+	}
+	.concept-img{
+		width: 500px;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	.u-copyright{
+		width: 1460px;
+		height: 50px;
+		border: 20px solid #2c3e50;
+		margin: auto;
+	}
+	.none{
+		text-decoration: none 
+	}
+
+	/*Сюжет*/
+
+	.p-header{
+		height: 100px;
+		background: #1abc9c;
+		display: flex;
+	}
+	.p-exit{
+		width: 1500px;
+		height: 70px;
+		background: #e67e22;
+		margin: auto;
+		border-radius: 10px;
+	}
+	.p-banner{
+		width: 1500px;
+		height: 500px;
+		display: flex;
+		margin: auto;
+		background: #e67e22;
+	}
+	.p-info{
+		width: 1500px;
+		height: 2400px;
+		background: #e67e22;
+		margin: auto;
+	}
+	.p-copyright{
+		width: 1460px;
+		height: 50px;
+		border: 20px solid #e67e22;
+		margin: auto;
+	}
+	
+	/*Персонажи*/
+
+	.c-header{
+		height: 100px;
+		background: #ff7675;
+		display: flex;
+	}
+	.c-exit{
+		width: 1500px;
+		height: 70px;
+		background: #00cec9;
+		margin: auto;
+		border-radius: 10px;
+	}
+	.c-banner{
+		width: 1500px;
+		height: 500px;
+		display: flex;
+		margin: auto;
+		background: #00cec9;
+	}
+	.c-banner-img{
+		width: 750px;
+		height: 480px;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+	.c-info{
+		width: 1500px;
+		height: 2310px;
+		background: #00cec9;
+		margin: auto;
+	}
+	.main-char-header{
+		width: 1500px;
+		height: 150px;
+		text-align: center;
+	}
+	.c-main{
+		width: 1500px;
+		height: 500px;
+		display: flex;
+		background-color: red
+	}
+	.main-char{
+ 		width: 288px;
+ 		height: 490px;
+ 		display: flex;
+ 		background-color: blue;
+ 		margin-top: 10px;
+ 		margin-left: 10px;
+	}
+	.sec-char-header{
+		width: 1500px;
+		height: 150px;
+		text-align: center;
+	}
+	.c-sec{
+		width: 1500px;
+		height: 500px;
+		display: flex;
+		background-color: green
+	}
+	.sec-char{
+		width: 288px;
+ 		height: 490px;
+ 		display: flex;
+ 		background-color: yellow;
+ 		margin-top: 10px;
+ 		margin-left: 10px;
+	}
+	.c-copyright{
+		width: 1460px;
+		height: 50px;
+		border: 20px solid #00cec9;
+		margin: auto;
+	}
+
+	/*Ода*/
+	
+	.oda{
+		width: 1500px;
+		height: 620px;
+		background: #e74c3c;
+		display: flex;
+		margin: auto;
+	}
+	.oda-img{
+		height: 600px;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	.oda-text{
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		text-align: justify;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	/*Ховеры*/
+
+	.mid-box:hover{ 
+		width: 720px;
+		height: 350px;
+	}
+	.mid-box:hover 
+		.mid-box-img{
+			height: 330px;
+	}
+	.mid-box-1:hover{ 
+		width: 720px;
+		height: 350px;
+	}
+	.mid-box-1:hover 
+		.mid-box-img{
+			height: 330px;
+	}
+</style>
